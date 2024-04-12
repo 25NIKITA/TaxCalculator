@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikita-Tax Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <form id="taxForm">
+        <label for="grossIncome">Enter Gross Annual Income:</label>
+        <input type="number" id="grossIncome"  placeholder='Enter gross annual income'name="grossIncome" required><br><br>
+
+        <label for="extraIncome">Enter extra Income:</label>
+        <input type="number" id="extraIncome" placeholder="Enter extra income from other sources" name="extraIncome"><br><br>
+
+        <label for="ageGroup">Age Group:</label>
+        <select id="ageGroup" name="ageGroup" >
+          <option value="" selected disabled>Select Age Group</option>
+            <option value="18-39">18-39</option>
+            <option value="40-59">40-59</option>
+            <option value="60+">60+</option>
+        </select><br><br>
+
+        <label for="deductions">Enter total Applicable Deductions:</label>
+        <input type="number" placeholder="Add total applicable deductions" id="deductions" name="deductions"><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Pop up screen for the o/p to show up -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="overallIncome"></p>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

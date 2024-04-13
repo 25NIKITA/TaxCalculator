@@ -1,4 +1,4 @@
-![Screenshot 2024-04-12 225456](https://github.com/25NIKITA/TaxCalculator/assets/113427756/471043ed-01ee-452b-b59f-53c38d53e5a7)# TaxCalculator
+# TaxCalculator
 This project is a simple web-based income tax calculator that helps users estimate their tax liability based on their gross annual income, extra income, age group, and applicable deductions.
 
 ##### Wonder how it Works? #####
